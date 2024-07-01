@@ -1,0 +1,71 @@
+.event1 {
+    background-size: cover;
+    background-image: url(../images/slidebg.png);
+    position: relative;
+
+    .navbar {
+        ul {
+
+            .active {
+                color: white;
+                font-weight: main-font;
+
+            }
+
+            li a {
+
+                color: white;
+                font-size: 18px;
+
+            }
+
+            a:hover {
+                color: var(--blue-color);
+            }
+        }
+    }
+
+    h2 {
+        font-size: 40px;
+        color: white;
+        font-family: main3-font;
+    }
+
+    p {
+        padding-bottom: 80px;
+        font-size: 20px;
+    }
+
+}
+
+.all-event {
+    .card {
+        position: relative;
+
+        h5 {
+            font-family: main-font;
+            font-size: 24x;
+        }
+
+        hr {
+            margin-top: 0;
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        p {
+            margin: 0;
+            padding: 0 20px;
+        }
+
+        .date {
+            color: var(--blue-color);
+        }
+
+        span {
+            color: var(--blue-color);
+            margin-left: 20px;
+        }
+
+    }
+}

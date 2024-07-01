@@ -1,0 +1,102 @@
+.about2 {
+    background-size: cover;
+    background-image: url(../images/slidebg.png);
+    background-position: center;
+    position: relative;
+
+    .navbar {
+        ul {
+
+
+            .active {
+                color: white;
+                font-weight: main-font;
+
+            }
+
+            li a {
+
+                color: white;
+                font-size: 18px;
+
+            }
+
+            a:hover {
+                color: var(--blue-color);
+            }
+        }
+    }
+
+    h2 {
+        font-size: 40px;
+        color: white;
+        font-family: main3-font;
+    }
+
+    p {
+        padding-bottom: 80px;
+        font-size: 20px;
+    }
+
+}
+
+.information {
+    position: relative;
+    padding-top: 80px;
+
+    .salah {
+        position: absolute;
+        z-index: 2;
+
+    }
+
+    @media (max-width:991px) {
+
+        .salah {
+            display: none;
+        }
+    }
+
+    .about-text {
+        span {
+            color: var(--blue-color);
+            font-family: main-font;
+        }
+
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+    }
+
+}
+
+// more section//
+.more {
+    margin-top: 70px;
+    background-image: linear-gradient(to right, #423d43, var(--blue-color));
+    border-radius: 10px;
+
+    h2 {
+        font-size: 50px;
+        font-family: main1-font;
+        color: white;
+        margin-bottom: 30px;
+
+        span {
+            color: var(--blue-color);
+        }
+    }
+
+    button {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 15px 25px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 70px;
+    }
+
+}
